@@ -7,9 +7,15 @@
     box-sizing: border-box;
     /* border: 1px solid red; */
 }
+html ::-webkit-scrollbar{
+    display: none;
+}
 
 a{
     text-decoration: none;
+}
+{
+    overflow-y: hidden;
 }
 
 .brand h1{
