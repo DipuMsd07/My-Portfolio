@@ -10,14 +10,9 @@
 html ::-webkit-scrollbar{
     display: none;
 }
-
 a{
     text-decoration: none;
 }
-{
-    overflow-y: hidden;
-}
-
 .brand h1{
 
     font-size: 4rem;
@@ -1388,5 +1383,5 @@ h1,h2{
 
             width: 80px;
             height: 80px;
-
         }
+}

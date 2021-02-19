@@ -7,13 +7,6 @@ hamburger.addEventListener('click', () => {
 
     hamburger.classList.toggle('active');
     mobile_menu.classList.toggle('active');
-    if(hamburger.classList.contains("active"))
-    {
-        document.body.style.position = "fixed";    
-    }
-    else{
-        document.body.style.position = "absolute";
-    }
     console.log(hamburger.classList.contains("active"));
 });
 
