@@ -3,11 +3,16 @@ const mobile_menu = document.querySelector('.header .navbar .navmenu ul');
 const menu_item = document.querySelectorAll('.header .navbar .navmenu ul li a');
 const header = document.querySelector('.header.container');
 
+
+function loader(){
+    preloader.style.display = 'none';
+}
+
 hamburger.addEventListener('click', () => {
 
     hamburger.classList.toggle('active');
     mobile_menu.classList.toggle('active');
-
+    console.log(hamburger.classList.contains("active"));
 });
 
 document.addEventListener('scroll', ()=>{
@@ -32,6 +37,4 @@ menu_item.forEach(item=>{
         mobile_menu.classList.toggle('active');
         
     });
-
-
 });
